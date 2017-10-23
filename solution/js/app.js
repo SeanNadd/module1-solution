@@ -23,7 +23,7 @@ angular.module('LunchCheck', [])
         }
       }else{
         $scope.messageType = "fail";
-        $scope.message = "Please enter data first"
+        $scope.message = "Please enter data first (Empty values are not counted)"
       }
     };
     
